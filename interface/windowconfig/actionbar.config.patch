@@ -1,0 +1,184 @@
+[
+	{ //Test File Modifications 
+		"op" : "test",
+		"path" : "/fileModified",
+		"value" : true, "inverse" : true
+	},
+
+	{ //Master Selection Offset
+		"op" : "replace",
+		"path" : "/actionBarSelectOffset",
+		"value" : [-1, -1]
+	},
+	{ //'actionbarbg' Asset Replacement
+		"op" : "replace",
+		"path" : "/paneLayout/background/fileBody",
+		"value" : "/interface/actionbar/actionbarbg.png"
+	},
+	//Position Adjustments For Slots
+	{	//Pair 1
+		"op" : "replace",
+		"path" : "/paneLayout/customBar1L/position",
+		"value" : [13, 8]
+	},{
+		"op" : "replace",
+		"path" : "/paneLayout/customBar1R/position",
+		"value" : [32, 8]
+	},{
+		"op" : "replace",
+		"path" : "/paneLayout/customBar1ROverlay/position",
+		"value" : [30, 2]
+	},
+	{	//Overlay Offset 1
+		"op" : "add",
+		"path" : "/paneLayout/customBar1ROverlay/offset",
+		"value" : [-2, 2]
+	},
+	{	//Pair 2
+		"op" : "replace",
+		"path" : "/paneLayout/customBar2L/position",
+		"value" : [56, 8]
+	},{
+		"op" : "replace",
+		"path" : "/paneLayout/customBar2R/position",
+		"value" : [75, 8]
+	},{
+		"op" : "replace",
+		"path" : "/paneLayout/customBar2ROverlay/position",
+		"value" : [72, 3]
+	},
+	{	//Overlay Offset 2
+		"op" : "add",
+		"path" : "/paneLayout/customBar2ROverlay/offset",
+		"value" : [0, 0]
+	},
+	{	//Pair 3
+		"op" : "replace",
+		"path" : "/paneLayout/customBar3L/position",
+		"value" : [99, 8]
+	},{
+		"op" : "replace",
+		"path" : "/paneLayout/customBar3R/position",
+		"value" : [118, 8]
+	},{
+		"op" : "replace",
+		"path" : "/paneLayout/customBar3ROverlay/position",
+		"value" : [115, 3]
+	},
+	{	//Overlay Offset 3
+		"op" : "add",
+		"path" : "/paneLayout/customBar3ROverlay/offset",
+		"value" : [0, 0]
+	},
+	{	//Pair 4
+		"op" : "replace",
+		"path" : "/paneLayout/customBar4L/position",
+		"value" : [227, 8]
+	},{
+		"op" : "replace",
+		"path" : "/paneLayout/customBar4R/position",
+		"value" : [246, 8]
+	},{
+		"op" : "replace",
+		"path" : "/paneLayout/customBar4ROverlay/position",
+		"value" : [243, 3]
+	},
+	{	//Overlay Offset 4
+		"op" : "add",
+		"path" : "/paneLayout/customBar4ROverlay/offset",
+		"value" : [0, 0]
+	},
+	{	//Pair 5
+		"op" : "replace",
+		"path" : "/paneLayout/customBar5L/position",
+		"value" : [270, 8]
+	},{
+		"op" : "replace",
+		"path" : "/paneLayout/customBar5R/position",
+		"value" : [289, 8]
+	},{
+		"op" : "replace",
+		"path" : "/paneLayout/customBar5ROverlay/position",
+		"value" : [286, 3]
+	},
+	{	//Overlay Offset 5
+		"op" : "add",
+		"path" : "/paneLayout/customBar5ROverlay/offset",
+		"value" : [0, 0]
+	},
+	{	//Pair 6
+		"op" : "replace",
+		"path" : "/paneLayout/customBar6L/position",
+		"value" : [313, 8]
+	},{
+		"op" : "replace",
+		"path" : "/paneLayout/customBar6R/position",
+		"value" : [332, 8]
+	},{
+		"op" : "replace",
+		"path" : "/paneLayout/customBar6ROverlay/position",
+		"value" : [329, 3]
+	},
+	{	//Overlay Offset 6
+		"op" : "add",
+		"path" : "/paneLayout/customBar6ROverlay/offset",
+		"value" : [0, 0]
+	},
+	{ //Offset Fix For Selection Highlight
+		"op" : "add",
+		"path" : "/paneLayout/customSelect/offset",
+		"value" : [0, -2]
+	},
+	{ //Essentialbars
+		"op" : "replace",
+		"path" : "/paneLayout/essentialBar1/position",
+		"value" : [144, 8]
+	},
+	{ //Essentialbars
+		"op" : "replace",
+		"path" : "/paneLayout/essentialBar2/position",
+		"value" : [163, 8]
+	},
+	{ //Essentialbars
+		"op" : "replace",
+		"path" : "/paneLayout/essentialBar3/position",
+		"value" : [182, 8]
+	},
+	{ //Essentialbars
+		"op" : "replace",
+		"path" : "/paneLayout/essentialBar4/position",
+		"value" : [201, 8]
+	},
+	{ //'actionbarpickup' Asset Replacement
+		"op" : "add",
+		"path" : "/paneLayout/pickupToActionBar/offset",
+		"value" : [1, 0]
+	},{
+		"op" : "replace",
+		"path" : "/paneLayout/pickupToActionBar/base",
+		"value" : "/interface/actionbar/actionbarpickup.png:unchecked"
+	},{
+		"op" : "replace",
+		"path" : "/paneLayout/pickupToActionBar/baseImageChecked",
+		"value" : "/interface/actionbar/actionbarpickup.png:checked"
+	},
+	{ //'swapcustombar' Asset Replacement
+		"op" : "add",
+		"path" : "/paneLayout/swapCustomBar/offset",
+		"value" : [5, 0]
+	},{
+		"op" : "replace",
+		"path" : "/paneLayout/swapCustomBar/base",
+		"value" : "/interface/actionbar/swapcustombarone.png"
+	},{
+		"op" : "replace",
+		"path" : "/paneLayout/swapCustomBar/baseImageChecked",
+		"value" : "/interface/actionbar/swapcustombartwo.png"
+	},
+	
+	{
+		"op" : "add",
+		"path" : "/fileModified",
+		"value" : true
+	}
+]

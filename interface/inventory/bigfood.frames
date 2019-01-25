@@ -1,0 +1,9 @@
+{
+  "frameGrid" : {
+    "size" : [34, 19],
+    "dimensions" : [4, 1],
+    "names" : [
+    	["base", "pressed", "baseChecked", "pressedChecked"]
+    ]
+  }
+}

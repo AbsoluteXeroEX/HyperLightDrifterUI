@@ -1,0 +1,11 @@
+{
+  "version" : "v0.8",
+  "author" : "AbsoluteXeroEX",
+  "requires" : [],
+  "description" : "The original Hyper Light Drifter HUD created by HENTAIBOY; hadn't seen any updates for it since June of 2017, so I thought I'd pick it up and continue working on some of the base elements. I plan on pushing these updates to HENTAIBOY himself, but if he wishes for this to be taken down, I will gladly do so.",
+  "name" : "Hyper Light Drifter UI",
+  "friendlyName" : "Hyper Light Drifter UI",
+  "steamContentId" : "889605762",
+  "link" : "",
+  "includes" : []
+}

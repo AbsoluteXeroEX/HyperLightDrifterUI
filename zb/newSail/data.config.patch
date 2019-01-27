@@ -1,0 +1,29 @@
+[
+  {
+    "op" : "replace",
+    "path" : "/GUI/titleIcon",
+    "value" : "/zb/newSail/vanillaSailIcon.png"
+  },
+
+  { "op" : "replace", "path" : "/GUI/subtitle", "value" : "^#48FDB0;Ship-based Artificial Intelligence Lattice" },
+
+  {
+    "op" : "replace",
+    "path" : "/Data/misc",
+    "value" : [
+      [ "OpenAiInterface", "Vanilla SAIL", "/zb/newSail/vanillaSailIcon.png" ],
+			[ "ScriptPane", "^orange;[ZB]^reset; Update Window", "/zb/newSail/questIcon.png", "/zb/updateInfoWindow/updateInfoWindow.config" ],
+			[ "ScriptPane", "^orange;[ZB]^reset; Quest List", "/zb/newSail/questIcon.png", "/zb/questList/questList.config" ],
+			[ "ScriptPane", "^orange;[ZB]^reset; Research Tree", "/zb/newSail/researchTreeIcon.png", "/zb/researchTree/researchTree.config" ],
+			[ "externalscript", "^orange;[ZB]^reset; Custom SAIL Info", "/zb/newSail/codexIcon.png", "/zb/newSail/zb_customFunctions.lua", "zb_sailInfo" ]
+    ]
+  },
+
+  {
+    "op" : "replace",
+    "path" : "/Data/miscAdmin",
+    "value" : [
+      [ "externalscript", "Skip Start Helper", "/zb/newSail/craftingIcon.png", "/zb/newSail/zb_customFunctions.lua", "zb_skipStarterCrap" ]
+    ]
+  }
+]

@@ -1,0 +1,43 @@
+[
+  {
+    "op" : "replace",
+    "path" : "/bgShine/file",
+    "value" : ""
+  },
+
+  {
+    "op" : "replace",
+    "path" : "/charSelector1/position",
+    "value" : [23, 218]
+  },
+
+  {
+    "op" : "replace",
+    "path" : "/charSelector2/position",
+    "value" : [23, 156]
+  },
+
+  {
+    "op" : "replace",
+    "path" : "/charSelector3/position",
+    "value" : [23, 94]
+  },
+
+  {
+    "op" : "replace",
+    "path" : "/charSelector4/position",
+    "value" : [23, 32]
+  },
+
+  {
+    "op" : "replace",
+    "path" : "/playerUpButton/position",
+    "value" : [110, 265]
+  },
+
+  {
+    "op" : "replace",
+    "path" : "/playerDownButton/position",
+    "value" : [110, 15]
+  }
+]

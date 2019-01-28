@@ -1,0 +1,162 @@
+[
+  {
+    "op" : "replace",
+    "path" : "/paneLayout",
+    "value" : {
+      "panefeature" : {
+        "type" : "panefeature"
+      },
+
+      "background" : {
+        "type" : "background",
+        "fileHeader" : "",
+        "fileBody" : "/interface/optionsmenu/body.png",
+        "fileFooter" : "/interface/optionsmenu/footer.png"
+      },
+      "bgShine" : {
+        "type" : "image",
+        "file" : "",
+        "position" : [16, 9],
+        "zlevel" : -1
+      },
+      "volumeLabel" : {
+        "type" : "label",
+        "position" : [119, 157],
+        "hAnchor" : "mid",
+        "value" : ""
+      },
+      "sfxLabel" : {
+        "type" : "label",
+        "position" : [32, 140],
+        "value" : ""
+      },
+      "sfxValueLabel" : {
+        "type" : "label",
+        "position" : [204, 142],
+        "hAnchor" : "mid",
+        "value" : ""
+      },
+      "musicLabel" : {
+        "type" : "label",
+        "position" : [32, 126],
+        "value" : ""
+      },
+      "musicValueLabel" : {
+        "type" : "label",
+        "position" : [204, 127],
+        "hAnchor" : "mid",
+        "value" : ""
+      },
+      "allowAssetsMismatchLabel" : {
+        "type" : "label",
+        "position" : [25, 73],
+        "hAnchor" : "left",
+        "vAnchor" : "bottom",
+        "wrapWidth" : 80,
+        "value" : ""
+      },
+      "allowAssetsMismatchCheckbox" : {
+        "type" : "button",
+        "pressedOffset" : [0, 0],
+        "position" : [21, 110],
+        "base" : "/interface/optionsmenu/checkboxnocheck.png",
+        "hover" : "/interface/optionsmenu/checkboxnocheckhover.png",
+        "baseImageChecked" : "/interface/optionsmenu/checkboxcheck.png",
+        "hoverImageChecked" : "/interface/optionsmenu/checkboxcheckhover.png",
+        "checkable" : true,
+        "checked" : true
+      },
+      "tutorialMessagesLabel" : {
+        "type" : "label",
+        "position" : [25, 62],
+        "hAnchor" : "left",
+        "value" : ""
+      },
+      "tutorialMessagesCheckbox" : {
+        "type" : "button",
+        "pressedOffset" : [0, 0],
+        "position" : [21, 95],
+        "base" : "/interface/optionsmenu/checkboxnocheck.png",
+        "hover" : "/interface/optionsmenu/checkboxnocheckhover.png",
+        "baseImageChecked" : "/interface/optionsmenu/checkboxcheck.png",
+        "hoverImageChecked" : "/interface/optionsmenu/checkboxcheckhover.png",
+        "checkable" : true,
+        "checked" : true
+      },
+      "clientP2PJoinableLabel" : {
+        "type" : "label",
+        "position" : [125, 75],
+        "hAnchor" : "left",
+        "vAnchor" : "bottom",
+        "wrapWidth" : 80,
+        "value" : ""
+      },
+      "clientP2PJoinableCheckbox" : {
+        "type" : "button",
+        "pressedOffset" : [0, 0],
+        "position" : [21, 80],
+        "base" : "/interface/optionsmenu/checkboxnocheck.png",
+        "hover" : "/interface/optionsmenu/checkboxnocheckhover.png",
+        "baseImageChecked" : "/interface/optionsmenu/checkboxcheck.png",
+        "hoverImageChecked" : "/interface/optionsmenu/checkboxcheckhover.png",
+        "checkable" : true,
+        "checked" : true
+      },
+      "clientIPJoinableLabel" : {
+        "type" : "label",
+        "position" : [125, 62],
+        "hAnchor" : "left",
+        "value" : ""
+      },
+      "clientIPJoinableCheckbox" : {
+        "type" : "button",
+        "pressedOffset" : [0, 0],
+        "position" : [21, 65],
+        "base" : "/interface/optionsmenu/checkboxnocheck.png",
+        "hover" : "/interface/optionsmenu/checkboxnocheckhover.png",
+        "baseImageChecked" : "/interface/optionsmenu/checkboxcheck.png",
+        "hoverImageChecked" : "/interface/optionsmenu/checkboxcheckhover.png",
+        "checkable" : true,
+        "checked" : true
+      },
+      "backButton" : {
+        "type" : "button",
+        "position" : [40, 20],
+        "caption" : "",
+        "base" : "/interface/optionsmenu/back.png",
+        "hover" : "/interface/optionsmenu/backover.png"
+      },
+      "acceptButton" : {
+        "type" : "button",
+        "position" : [140, 20],
+        "caption" : "",
+        "base" : "/interface/optionsmenu/accept.png",
+        "hover" : "/interface/optionsmenu/acceptover.png"
+      },
+      "showKeybindings" : {
+        "type" : "button",
+        "position" : [40, 40],
+        "caption" : "",
+        "base" : "/interface/optionsmenu/controls.png",
+        "hover" : "/interface/optionsmenu/controlsover.png"
+      },
+      "showGraphics" : {
+        "type" : "button",
+        "position" : [140, 40],
+        "caption" : "",
+        "base" : "/interface/optionsmenu/graphics.png",
+        "hover" : "/interface/optionsmenu/graphicsover.png"
+      },
+      "sfxSlider" : {
+        "type" : "slider",
+        "position" : [73, 142],
+        "gridImage" : "/interface/optionsmenu/largeselection.png"
+      },
+      "musicSlider" : {
+        "type" : "slider",
+        "position" : [73, 127],
+        "gridImage" : "/interface/optionsmenu/largeselection.png"
+      }
+    }
+  }
+]

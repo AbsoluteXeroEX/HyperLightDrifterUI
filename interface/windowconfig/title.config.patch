@@ -1,0 +1,44 @@
+[
+  {
+    "op" : "replace",
+    "path" : "/mainMenuButtons",
+    "value" : [
+      {
+        "key" : "singleplayer",
+        "button" : "/interface/title/singleplayer.png",
+        "hover" : "/interface/title/singleplayerover.png",
+        "offset" : [428, 250]
+      },
+      {
+        "key" : "multiplayer",
+        "button" : "/interface/title/multiplayer.png",
+        "hover" : "/interface/title/multiplayerover.png",
+        "offset" : [428, 225]
+      },
+      {
+        "key" : "options",
+        "button" : "/interface/title/options.png",
+        "hover" : "/interface/title/optionsover.png",
+        "offset" : [428, 200]
+      },
+      {
+        "key" : "mods",
+        "button" : "/interface/title/mods.png",
+        "hover" : "/interface/title/modsover.png",
+        "offset" : [428, 175]
+      },
+      {
+        "key" : "quit",
+        "button" : "/interface/title/quit.png",
+        "hover" : "/interface/title/quitover.png",
+        "offset" : [428, 150]
+      },
+      {
+        "key" : "back",
+        "button" : "/interface/title/back.png",
+        "hover" : "/interface/title/backover.png",
+        "offset" : [428, 50]
+      }
+    ]
+  }
+]

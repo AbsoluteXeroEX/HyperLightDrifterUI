@@ -1,7 +1,7 @@
 [
   {
     "op" : "replace",
-    "path" : "/mainBar/questlog",
+    "path" : "/mainBar/questLog",
     "value" : {
       "base" : "/interface/quest.png:base",
       "hover" : "/interface/quest.png:hover",

@@ -109,10 +109,7 @@
       "open" : "/interface/quest.png:open",
       "openHover" : "/interface/quest.png:openHover",
       "pos" : [-61, 140],
-      "poly" : [ [-59, 140],
-			[-21, 140],
-			[-21, 163],
-			[-59, 163] ]
+      "poly" : [ [-59, 140], [-21, 140], [-21, 163], [-59, 163] ]
     },
     "inventory" : {
       "base" : "/interface/inventory.png:base",
@@ -120,10 +117,7 @@
       "open" : "/interface/inventory.png:open",
       "openHover" : "/interface/inventory.png:openHover",
       "pos" : [-20, 140],
-      "poly" : [ [-20, 142],
-			[24, 142],
-			[24, 165],
-			[-20, 165] ]
+      "poly" : [ [-20, 142], [24, 142], [24, 165], [-20, 165] ]
     },
     "craft" : {
       "base" : "/interface/crafting.png:base",
@@ -131,10 +125,7 @@
       "open" : "/interface/crafting.png:open",
       "openHover" : "/interface/crafting.png:openHover",
       "pos" : [0, 120],
-      "poly" : [ [1, 120],
-			[18, 120], 
-			[18, 137], 
-			[1, 137] ]
+      "poly" : [ [1, 120], [18, 120], [18, 137], [1, 137] ]
     },
     "codex" : {
       "base" : "/interface/codex.png:base",
@@ -142,10 +133,7 @@
       "open" : "/interface/codex.png:open",
       "openHover" : "/interface/codex.png:openHover",
       "pos" : [0, 100],
-      "poly" : [ [1, 100],
-			[18, 100], 
-			[18, 117], 
-			[1, 117] ]
+      "poly" : [ [1, 100], [18, 100], [18, 117], [1, 117] ]
     },
     "collections" : {
       "base" : "/interface/collections.png:base",
@@ -180,10 +168,7 @@
       "base" : "/interface/beamdown.png",
       "hover" : "/interface/beamdownhover.png",
       "pos" : [0, 20],
-      "poly" : [ [1, 20],
-			[18, 20], 
-			[18, 37], 
-			[1, 37] ]
+      "poly" : [ [1, 20], [18, 20], [18, 37], [1, 37] ]
     }
   },
 

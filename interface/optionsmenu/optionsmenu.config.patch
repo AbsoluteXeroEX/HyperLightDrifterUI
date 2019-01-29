@@ -49,52 +49,58 @@
       },
       "allowAssetsMismatchLabel" : {
         "type" : "label",
-        "position" : [25, 73],
+        "position" : [0, 0],
         "hAnchor" : "left",
         "vAnchor" : "bottom",
         "wrapWidth" : 80,
+        "value" : ""
+      },
+      "tutorialMessagesLabel" : {
+        "type" : "label",
+        "position" : [0, 0],
+        "hAnchor" : "left",
+        "value" : ""
+      },
+      "clientP2PJoinableLabel" : {
+        "type" : "label",
+        "position" : [0, 0],
+        "hAnchor" : "left",
+        "vAnchor" : "bottom",
+        "wrapWidth" : 80,
+        "value" : ""
+      },
+      "clientIPJoinableLabel" : {
+        "type" : "label",
+        "position" : [0, 0],
+        "hAnchor" : "left",
         "value" : ""
       },
       "allowAssetsMismatchCheckbox" : {
         "type" : "button",
         "pressedOffset" : [0, 0],
-        "position" : [21, 110],
+        "position" : [24, 110],
         "base" : "/interface/optionsmenu/checkboxnocheck.png",
         "hover" : "/interface/optionsmenu/checkboxnocheckhover.png",
         "baseImageChecked" : "/interface/optionsmenu/checkboxcheck.png",
         "hoverImageChecked" : "/interface/optionsmenu/checkboxcheckhover.png",
         "checkable" : true,
         "checked" : true
-      },
-      "tutorialMessagesLabel" : {
-        "type" : "label",
-        "position" : [25, 62],
-        "hAnchor" : "left",
-        "value" : ""
       },
       "tutorialMessagesCheckbox" : {
         "type" : "button",
         "pressedOffset" : [0, 0],
-        "position" : [21, 95],
+        "position" : [24, 99],
         "base" : "/interface/optionsmenu/checkboxnocheck.png",
         "hover" : "/interface/optionsmenu/checkboxnocheckhover.png",
         "baseImageChecked" : "/interface/optionsmenu/checkboxcheck.png",
         "hoverImageChecked" : "/interface/optionsmenu/checkboxcheckhover.png",
         "checkable" : true,
         "checked" : true
-      },
-      "clientP2PJoinableLabel" : {
-        "type" : "label",
-        "position" : [125, 75],
-        "hAnchor" : "left",
-        "vAnchor" : "bottom",
-        "wrapWidth" : 80,
-        "value" : ""
       },
       "clientP2PJoinableCheckbox" : {
         "type" : "button",
         "pressedOffset" : [0, 0],
-        "position" : [21, 80],
+        "position" : [24, 88],
         "base" : "/interface/optionsmenu/checkboxnocheck.png",
         "hover" : "/interface/optionsmenu/checkboxnocheckhover.png",
         "baseImageChecked" : "/interface/optionsmenu/checkboxcheck.png",
@@ -102,16 +108,10 @@
         "checkable" : true,
         "checked" : true
       },
-      "clientIPJoinableLabel" : {
-        "type" : "label",
-        "position" : [125, 62],
-        "hAnchor" : "left",
-        "value" : ""
-      },
       "clientIPJoinableCheckbox" : {
         "type" : "button",
         "pressedOffset" : [0, 0],
-        "position" : [21, 65],
+        "position" : [24, 77],
         "base" : "/interface/optionsmenu/checkboxnocheck.png",
         "hover" : "/interface/optionsmenu/checkboxnocheckhover.png",
         "baseImageChecked" : "/interface/optionsmenu/checkboxcheck.png",

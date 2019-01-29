@@ -1,0 +1,181 @@
+[
+  {
+    "op" : "replace",
+    "path" : "/paneLayout",
+    "value" : {
+      "panefeature" : {
+        "type" : "panefeature",
+        "positionLocked" : false
+      },
+      "background" : {
+        "type" : "background",
+        "fileHeader" : "/interface/graphicsmenu/header.png",
+        "fileBody" : "/interface/graphicsmenu/body.png",
+        "fileFooter" : ""
+      },
+      "bgShine" : {
+        "type" : "image",
+        "file" : "",
+        "position" : [16, 8],
+        "zlevel" : 1
+      },
+      "title" : {
+        "type" : "label",
+        "position" : [119, 170],
+        "hAnchor" : "mid",
+        "fontSize" : 16,
+        "value" : ""
+      },
+      "cancel" : {
+        "type" : "button",
+        "position" : [40, 10],
+        "caption" : "",
+        "base" : "/interface/optionsmenu/back.png",
+        "hover" : "/interface/optionsmenu/backover.png"
+      },
+      "accept" : {
+        "type" : "button",
+        "position" : [140, 10],
+        "caption" : "",
+        "base" : "/interface/optionsmenu/accept.png",
+        "hover" : "/interface/optionsmenu/acceptover.png"
+      },
+      "fullscreenLabel" : {
+        "type" : "label",
+        "position" : [0, 0],
+        "hAnchor" : "left",
+        "value" : ""
+      },
+      "borderlessLabel" : {
+        "type" : "label",
+        "position" : [0, 0],
+        "hAnchor" : "left",
+        "value" : ""
+      },
+      "monochromeLabel" : {
+        "type" : "label",
+        "position" : [0, 0],
+        "hAnchor" : "left",
+        "value" : ""
+      },
+      "speechBubbleLabel" : {
+        "type" : "label",
+        "position" : [0, 0],
+        "hAnchor" : "left",
+        "value" : ""
+      },
+      "interactiveHighlightLabel" : {
+        "type" : "label",
+        "position" : [0, 0],
+        "hAnchor" : "left",
+        "value" : ""
+      },
+      "textureLimitLabel" : {
+        "type" : "label",
+        "position" : [0, 0],
+        "hAnchor" : "left",
+        "value" : ""
+      },
+      "fullscreenCheckbox" : {
+        "type" : "button",
+        "pressedOffset" : [0, 0],
+        "position" : [24, 86],
+        "base" : "/interface/optionsmenu/checkboxnocheck.png",
+        "hover" : "/interface/optionsmenu/checkboxnocheckhover.png",
+        "baseImageChecked" : "/interface/optionsmenu/checkboxcheck.png",
+        "hoverImageChecked" : "/interface/optionsmenu/checkboxcheckhover.png",
+        "checkable" : true,
+        "checked" : false
+      },
+      "borderlessCheckbox" : {
+        "type" : "button",
+        "pressedOffset" : [0, 0],
+        "position" : [24, 75],
+        "base" : "/interface/optionsmenu/checkboxnocheck.png",
+        "hover" : "/interface/optionsmenu/checkboxnocheckhover.png",
+        "baseImageChecked" : "/interface/optionsmenu/checkboxcheck.png",
+        "hoverImageChecked" : "/interface/optionsmenu/checkboxcheckhover.png",
+        "checkable" : true,
+        "checked" : false
+      },
+      "monochromeCheckbox" : {
+        "type" : "button",
+        "pressedOffset" : [0, 0],
+        "position" : [24, 64],
+        "base" : "/interface/optionsmenu/checkboxnocheck.png",
+        "hover" : "/interface/optionsmenu/checkboxnocheckhover.png",
+        "baseImageChecked" : "/interface/optionsmenu/checkboxcheck.png",
+        "hoverImageChecked" : "/interface/optionsmenu/checkboxcheckhover.png",
+        "checkable" : true,
+        "checked" : false
+      },
+      "speechBubbleCheckbox" : {
+        "type" : "button",
+        "pressedOffset" : [0, 0],
+        "position" : [24, 53],
+        "base" : "/interface/optionsmenu/checkboxnocheck.png",
+        "hover" : "/interface/optionsmenu/checkboxnocheckhover.png",
+        "baseImageChecked" : "/interface/optionsmenu/checkboxcheck.png",
+        "hoverImageChecked" : "/interface/optionsmenu/checkboxcheckhover.png",
+        "checkable" : true,
+        "checked" : true
+      },
+      "interactiveHighlightCheckbox" : {
+        "type" : "button",
+        "pressedOffset" : [0, 0],
+        "position" : [24, 42],
+        "base" : "/interface/optionsmenu/checkboxnocheck.png",
+        "hover" : "/interface/optionsmenu/checkboxnocheckhover.png",
+        "baseImageChecked" : "/interface/optionsmenu/checkboxcheck.png",
+        "hoverImageChecked" : "/interface/optionsmenu/checkboxcheckhover.png",
+        "checkable" : true,
+        "checked" : true
+      },
+      "textureLimitCheckbox" : {
+        "type" : "button",
+        "pressedOffset" : [0, 0],
+        "position" : [24, 31],
+        "base" : "/interface/optionsmenu/checkboxnocheck.png",
+        "hover" : "/interface/optionsmenu/checkboxnocheckhover.png",
+        "baseImageChecked" : "/interface/optionsmenu/checkboxcheck.png",
+        "hoverImageChecked" : "/interface/optionsmenu/checkboxcheckhover.png",
+        "checkable" : true,
+        "checked" : true
+      },
+      "resLabel" : {
+        "type" : "label",
+        "position" : [119, 154],
+        "hAnchor" : "mid",
+        "value" : ""
+      },
+      "resValueLabel" : {
+        "type" : "label",
+        "position" : [80, 98],
+        "hAnchor" : "mid",
+        "value" : ""
+      },
+      "zoomLabel" : {
+        "type" : "label",
+        "position" : [100, 125],
+        "hAnchor" : "mid",
+        "value" : ""
+      },
+      "zoomValueLabel" : {
+        "type" : "label",
+        "position" : [182, 98],
+        "hAnchor" : "mid",
+        "value" : ""
+      },
+      "resSlider" : {
+        "type" : "slider",
+        "position" : [23, 113],
+        "gridImage" : "/interface/optionsmenu/largeselection.png"
+      },
+      "zoomSlider" : {
+        "type" : "slider",
+        "position" : [151, 113],
+        "gridImage" : "/interface/optionsmenu/smallselection.png"
+      }
+    }
+  }
+]
